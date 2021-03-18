@@ -9,3 +9,5 @@ Stage 1.  (Naming conventions)
 
 - remove hardcoded values/magic numbers
 - validate input values
+
+Stage 2. (Keep it stimple and stupid, single responsibility)
