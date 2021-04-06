@@ -1,0 +1,61 @@
+Part I  (Code formatting, best practices)
+
+- check attributes names for proper convention
+- rename attributes for better meaning if they are too generic
+- magic numbers
+- validate input values
+- class accesability
+
+Changed naming:
+(fields) 
+rate - ratePerMonth      
+(constructor)
+passedLoan_value
+passedRatePerMonth
+passedAccount_Type
+(functions)
+getLoanValue
+getRatePerMonth
+getMonthlyLoanPayment
+setLoanValue
+accountInfoString
+getAccountTotalFee
+
+Replaced magic numbers:
+1.25% BROKER_FEE
+365 DAY_PER_YEAR
+
+Class accesability:
+-changed loanValue,ratePerMonth,daysActive to protected
+
+Class field accesors:
+-added respective accesors for private classes
+
+MISC:
+-removed unnecesery function print()
+
+Part II. (Keep it stimple and stupid, single responsibility)
+
+-simplify classes
+-split class/function functionalities to make it easier to understand
+-validation
+
+- added enum AccountType
+- added exception
+
+-method getAccountTotalFee modified to respect KISS
+-split into multiple methods, each doing 1 operation
+
+
+
+
+
+
+
+
+
+
+
+
+
+

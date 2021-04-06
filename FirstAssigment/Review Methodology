@@ -1,0 +1,17 @@
+
+Part I  (Naming and formatting)
+
+- check attributes names for proper convention
+- rename attributes for better meaning if they are too generic
+- magic numbers
+- validate input values
+
+Changed:
+(fields) 
+ratePerMonth      
+(constructor)
+passedLoan_value
+passedRatePerMonth
+passedAccount_Type
+
+Stage 2. (Keep it stimple and stupid, single responsibility)
