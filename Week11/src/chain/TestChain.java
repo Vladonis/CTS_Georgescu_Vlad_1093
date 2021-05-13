@@ -17,8 +17,6 @@ public class TestChain
 	chatServer.processMessage(new Message("Hello","@Jhon",1));
 	chatServer.processMessage(new Message("Word1","@Jhon",1));
 	chatServer.processMessage(new Message("Hello2","@everyone",1));
-
-	
 	
 	}
 }
