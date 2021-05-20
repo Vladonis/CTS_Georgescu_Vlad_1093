@@ -1,0 +1,24 @@
+Dimensional Mapping Robot
+While the device is running, sensors gather ultrasonic data 
+by emitting pulses and listening for echoes.
+The data is gathered by the Arduino, which converts the data 
+the analog data into digital data and then sends it to an application
+wich will make a map using that data. The design patterns are impossible to 
+apply on the robot code itself due to the limited memory, so the design patterns
+will be applied on the secondary application which builds a map 
+using the gathered data.
+
+
+Pattern purpose:
+As we only need 1 map we make sure only 1 map is created.
+Static implementation.
+
+Pros:
+class has only a single instance
+global access point to that instance
+
+Cons:
+
+each instance of class is created always, whether it is required or not.
+time is wasted in creation of instance if it is not required
+might have problems with multithreading
